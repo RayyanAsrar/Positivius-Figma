@@ -230,3 +230,39 @@ footer hr {
     display: none;
   }
 }
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+  /* Stack items in the footer navbar (top section) */
+  .my-foot-main .row .col-12 {
+    flex-direction: column;  /* Stack items vertically */
+    align-items: flex-start;
+  }
+  
+  /* Stack the footer links and social icons on small screens */
+  .my-foot-a {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Stack the contact info and form vertically */
+  .my-foot-h5 {
+    margin-bottom: 1rem;
+  }
+  
+  .my-foot-div form {
+    flex-direction: column;
+  }
+
+  .my-foot-div form input,
+  .my-foot-div form button {
+    margin: 10px;
+    width: 100%;
+  }
+
+  /* Ensure the content in the footer doesn’t overflow */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
