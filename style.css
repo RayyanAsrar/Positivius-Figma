@@ -63,34 +63,57 @@ background-color:#b9ff66; */
 }
 
 .custom-card {
-  background-color: #c8fc89; /* Light green background */
-  padding: 1.5rem; /* Adjust padding for spacing */
+  background-color: #b9ff66; /* Light green background */
+  padding: 1.5rem; /* Default padding */
   border-radius: 15px; /* Smooth rounded corners */
 }
 
 .custom-card h2 {
-  font-size: 2.5rem; /* Larger font size for the number */
-  font-weight: bold; /* Make the number bold */
+  font-size: 2.5rem; /* Large font size for the number */
+  font-weight: bold;
 }
 
 .custom-card hr {
-  border: 1px solid black; /* Line under the title */
+  border: 1px solid black;
   margin: 0.5rem 0;
 }
 
 .custom-card p {
-  font-size: 0.9rem; /* Smaller font size for the paragraph */
+  font-size: 0.9rem;
+}
+
+.compact-card {
+  padding: 0.75rem; /* Smaller padding for the smaller card */
+}
+
+.compact-card h4 {
+  font-size: 1.5rem; /* Slightly smaller font for the number */
+  font-weight: bold;
+}
+
+.compact-card h6 {
+  font-size: 1rem; /* Smaller title font size */
+}
+
+.compact-card hr {
+  border: 1px solid black;
+  margin: 0.25rem 0; /* Narrower spacing between elements */
+}
+
+.compact-card p {
+  font-size: 0.8rem; /* Smaller paragraph text */
 }
 
 .icon-size {
-  width: 20px; /* Icon size */
+  width: 20px;
   height: 20px;
 }
 
 button {
   background-color: #ffffff; /* White background for the button */
-  padding: 0.5rem; /* Adjust padding */
+  padding: 0.5rem;
 }
+
 
 @media only screen and (max-width: 540px) {
     .image-box  {
