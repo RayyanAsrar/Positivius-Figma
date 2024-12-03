@@ -36,8 +36,7 @@
 }
 
 
-/* .my-mainbefore .span1{
-background-color:#b9ff66; */
+
 .my-service div div div h2{
   background-color: #b9ff66;
   font-family: Space Grotesk;
@@ -63,13 +62,13 @@ background-color:#b9ff66; */
 }
 
 .custom-card {
-  background-color: #b9ff66; /* Light green background */
-  padding: 1.5rem; /* Default padding */
-  border-radius: 15px; /* Smooth rounded corners */
+  background-color: #b9ff66; 
+  padding: 1.5rem; 
+  border-radius: 15px; 
 }
 
 .custom-card h2 {
-  font-size: 2.5rem; /* Large font size for the number */
+  font-size: 2.5rem; 
   font-weight: bold;
 }
 
@@ -83,25 +82,25 @@ background-color:#b9ff66; */
 }
 
 .compact-card {
-  padding: 0.75rem; /* Smaller padding for the smaller card */
+  padding: 0.75rem;
 }
 
 .compact-card h4 {
-  font-size: 1.5rem; /* Slightly smaller font for the number */
+  font-size: 1.5rem; 
   font-weight: bold;
 }
 
 .compact-card h6 {
-  font-size: 1rem; /* Smaller title font size */
+  font-size: 1rem; 
 }
 
 .compact-card hr {
   border: 1px solid black;
-  margin: 0.25rem 0; /* Narrower spacing between elements */
+  margin: 0.25rem 0; 
 }
 
 .compact-card p {
-  font-size: 0.8rem; /* Smaller paragraph text */
+  font-size: 0.8rem; 
 }
 
 .icon-size {
@@ -110,7 +109,7 @@ background-color:#b9ff66; */
 }
 
 button {
-  background-color: #ffffff; /* White background for the button */
+  background-color: #ffffff; 
   padding: 0.5rem;
 }
 
@@ -136,40 +135,40 @@ button {
 textarea {
   resize: none;
 }
-/* Default radio button styling */
+
 .custom-radio {
-  accent-color: #000; /* Default color */
+  accent-color: #000; 
 }
 
-/* Change color when selected */
+
 .custom-radio:checked {
- background-color: #b9ff66; /* Change this to your desired color */
+ background-color: #b9ff66; 
 }
 
 footer {
-  background-color: #121212; /* Dark background */
+  background-color: #121212; 
 }
 
 footer a {
-  text-decoration: none; /* Remove underline from links */
+  text-decoration: none; 
 }
 
 footer a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline; 
 }
 
 footer .form-control {
-  border-radius: 10px; /* Round the input field */
+  border-radius: 10px; /
   padding-left: 15px;
 }
 
 footer .btn {
-  border-radius: 10px; /* Round the button */
+  border-radius: 10px;
 }
 
 footer .btn-success {
   background-color: #b9ff66;
-  color: black; /* Bright green for subscribe button */
+  color: black; 
   border: none;
 }
 
@@ -179,7 +178,7 @@ footer .btn-success:hover {
 }
 
 footer hr {
-  border-top: 5px solid white; /* Light border for the separator */
+  border-top: 5px solid white; 
 }
 .my-foot-div{
   
@@ -213,9 +212,8 @@ footer hr {
   color: white;
 }
 
-/*= .my-foot-main{
-  background-color:#191a23 ;
-} */
+
+
 @media only screen and (max-width: 540px) {
     .image-box  {
         margin-top: 30px;
@@ -230,22 +228,22 @@ footer hr {
     display: none;
   }
 }
-/* Media Queries for smaller screens */
+
 @media (max-width: 768px) {
-  /* Stack items in the footer navbar (top section) */
+  
   .my-foot-main .row .col-12 {
-    flex-direction: column;  /* Stack items vertically */
+    flex-direction: column;  
     align-items: flex-start;
   }
   
-  /* Stack the footer links and social icons on small screens */
+ 
   .my-foot-a {
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 1rem;
   }
 
-  /* Stack the contact info and form vertically */
+ 
   .my-foot-h5 {
     margin-bottom: 1rem;
   }
@@ -260,7 +258,7 @@ footer hr {
     width: 100%;
   }
 
-  /* Ensure the content in the footer doesn’t overflow */
+ 
   .container {
     padding-left: 15px;
     padding-right: 15px;
