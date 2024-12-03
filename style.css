@@ -114,6 +114,40 @@ button {
   padding: 0.5rem;
 }
 
+.my-gray{
+  background-color:#f3f3f3 ;
+}
+.custom-shadow {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12); 
+}
+
+.custom-shadow-deeper {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 3); 
+}
+
+.btn-dark {
+  background-color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+textarea {
+  resize: none;
+}
+/* Default radio button styling */
+.custom-radio {
+  accent-color: #000; /* Default color */
+}
+
+/* Change color when selected */
+.custom-radio:checked {
+ background-color: #b9ff66; /* Change this to your desired color */
+}
+
+
+
 
 @media only screen and (max-width: 540px) {
     .image-box  {
@@ -123,4 +157,9 @@ button {
     .brand-logos > div {
         margin-top: 25px;
     }
+}
+@media (max-width: 992px) {
+  .custom-right-image {
+    display: none;
+  }
 }
