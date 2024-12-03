@@ -159,29 +159,63 @@ footer a:hover {
 }
 
 footer .form-control {
-  border-radius: 25px; /* Round the input field */
+  border-radius: 10px; /* Round the input field */
   padding-left: 15px;
 }
 
 footer .btn {
-  border-radius: 25px; /* Round the button */
+  border-radius: 10px; /* Round the button */
 }
 
 footer .btn-success {
-  background-color: #32CD32; /* Bright green for subscribe button */
+  background-color: #b9ff66;
+  color: black; /* Bright green for subscribe button */
   border: none;
 }
 
 footer .btn-success:hover {
-  background-color: #28a745; /* Darker green on hover */
+  background-color: #b9ff66;
+  color: black;
 }
 
 footer hr {
-  border-top: 1px solid #444; /* Light border for the separator */
+  border-top: 5px solid white; /* Light border for the separator */
+}
+.my-foot-div{
+  
+  border-radius: 10px;
+  background-color:#292a32;
+} 
+.my-foot-a a{
+  color: #9a9a9e;
+}
+.my-foot-h5 h5{
+  width: 120px;
+  background-color: #b9ff66 ;
+  border-radius: 5px;
+  padding: 3px;
+  color: black;
+}
+.my-foot-div form input{
+  background-color: transparent;
+  color: white;
+  
+}
+.my-foot-div form input:active{
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+.my-foot-div form input:focus{
+  background-color: transparent;
+  text-decoration: none;
+  border-color: white;
+  color: white;
 }
 
-
-
+/*= .my-foot-main{
+  background-color:#191a23 ;
+} */
 @media only screen and (max-width: 540px) {
     .image-box  {
         margin-top: 30px;
