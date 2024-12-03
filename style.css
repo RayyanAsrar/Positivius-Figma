@@ -146,6 +146,39 @@ textarea {
  background-color: #b9ff66; /* Change this to your desired color */
 }
 
+footer {
+  background-color: #121212; /* Dark background */
+}
+
+footer a {
+  text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+footer .form-control {
+  border-radius: 25px; /* Round the input field */
+  padding-left: 15px;
+}
+
+footer .btn {
+  border-radius: 25px; /* Round the button */
+}
+
+footer .btn-success {
+  background-color: #32CD32; /* Bright green for subscribe button */
+  border: none;
+}
+
+footer .btn-success:hover {
+  background-color: #28a745; /* Darker green on hover */
+}
+
+footer hr {
+  border-top: 1px solid #444; /* Light border for the separator */
+}
 
 
 
